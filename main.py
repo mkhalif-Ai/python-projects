@@ -1,12 +1,9 @@
 
 
-name = "john"
-age =22
-city = "Nairobi"
-course = "Python"
-is_paid = True
-print(f"Name:{name}")
-print(f"age:{age}")
-print(f"city:{city}")
-print(f"course:{course}")
-print(f"paid:{is_paid}")
+name = input("enter your name:")
+print(f"your name is:{name}")
+age = int(input("enter your age?"))
+print(f"your are {age} years old")
+print(age+1)
+price = float(input("how much?"))
+print(f"the price is {price}")
